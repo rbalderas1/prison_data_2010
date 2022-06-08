@@ -71,6 +71,9 @@ ax.set(xlabel = "Incarceration Rate per 100k",
 plt.title('Incarceration Rates\nTexas vs United States', 
          fontsize='large', fontweight='bold')
 
+# change the layout so that the labels are not cut off
+plt.tight_layout()
+
 # change legend size and display plot
 plt.legend(fontsize = 'large')
 plt.show()
